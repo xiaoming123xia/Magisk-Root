@@ -37,9 +37,9 @@ jobs:
         run: |
           mkdir -p $ANDROID_SDK_ROOT/ndk
           cd $ANDROID_SDK_ROOT/ndk
-          curl -L -o ondk.tar.xz "https://github.com/topjohnwu/ondk/releases/download/v28.1.104/ondk-v28.1.104-linux.tar.xz"
+          curl -L -o ondk.tar.xz "https://github.com/topjohnwu/ondk/releases/download/r30.0/ondk-r30.0-linux.tar.xz"
           tar -xf ondk.tar.xz
-          mv ondk-* magisk
+          mv ondk-r30.0 magisk
           rm ondk.tar.xz
 
       - name: Create config.prop
