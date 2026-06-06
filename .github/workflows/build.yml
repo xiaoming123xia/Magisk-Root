@@ -28,14 +28,36 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Build APK
+      - name: Setup Rust
+        uses: dtolnay/rust-action@stable
+        with:
+          targets: aarch64-linux-android
+
+      - name: Install Android NDK
         run: |
-          cd app
-          chmod +x gradlew
-          ./gradlew :apk:assembleRelease -PabiList=arm64-v8a --no-daemon
+          mkdir -p $ANDROID_SDK_ROOT/ndk
+          cd $ANDROID_SDK_ROOT/ndk
+          curl -L -o ondk.tar.xz "https://github.com/topjohnwu/ondk/releases/download/v28.1.104/ondk-v28.1.104-linux.tar.xz"
+          tar -xf ondk.tar.xz
+          mv ondk-* magisk
+          rm ondk.tar.xz
+
+      - name: Create config.prop
+        run: |
+          cat > config.prop << 'EOF'
+          version=30.7
+          magisk.versionCode=30700
+          magisk.stubVersion=30.7
+          abiList=arm64-v8a
+          EOF
+
+      - name: Build Magisk
+        run: |
+          chmod +x build.py
+          python3 build.py all -r
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: magisk-apk
-          path: app/apk/build/outputs/apk/release/apk-release.apk
+          path: out/app-release.apk
