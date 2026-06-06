@@ -54,7 +54,7 @@ jobs:
       - name: Build Magisk
         run: |
           chmod +x build.py
-          python3 build.py all -r
+          python3 build.py -r all
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
