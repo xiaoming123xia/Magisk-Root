@@ -207,6 +207,8 @@ fun HomeScreen(viewModel: HomeViewModel, installVm: InstallViewModel) {
                 .padding(top = 12.dp, bottom = 88.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
+            CustomVersionBanner()
+
             if (uiState.isNoticeVisible) {
                 NoticeCard(onHide = viewModel::hideNotice)
             }
@@ -319,6 +321,43 @@ private fun RebootButton() {
 }
 
 private class RebootOption(val labelRes: Int, val action: () -> Unit)
+
+@Composable
+private fun CustomVersionBanner() {
+    val isChinese = java.util.Locale.getDefault().language == "zh"
+    val title = if (isChinese) stringResource(CoreR.string.custom_notice_title_zh) else stringResource(CoreR.string.custom_notice_title)
+    val content = if (isChinese) stringResource(CoreR.string.custom_notice_content_zh) else stringResource(CoreR.string.custom_notice_content)
+    val uri = android.net.Uri.parse(if (isChinese) "https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk" else "https://github.com/topjohnwu/Magisk/releases")
+    val context = LocalContext.current
+
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(16.dp),
+        onClick = {
+            try {
+                context.startActivity(Intent(Intent.ACTION_VIEW, uri))
+            } catch (_: Exception) {}
+        }
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp)
+        ) {
+            Text(
+                text = title,
+                style = MaterialTheme.typography.titleMedium,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+            Text(
+                text = content,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+    }
+}
 
 @Composable
 private fun NoticeCard(onHide: () -> Unit) {

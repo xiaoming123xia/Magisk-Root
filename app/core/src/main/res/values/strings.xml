@@ -10,6 +10,12 @@
     <string name="section_theme">Themes</string>
     <string name="denylist">DenyList</string>
 
+    <!--Notice-->
+    <string name="custom_notice_title">Custom Version Notice</string>
+    <string name="custom_notice_content">This is a custom version. Please use the original version whenever possible. Support the original project! Download: https://github.com/topjohnwu/Magisk/releases</string>
+    <string name="custom_notice_title_zh">定制版本公告</string>
+    <string name="custom_notice_content_zh">此版本为定制版本，少用定制，多用原版，多多支持原版！原版下载：https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk</string>
+
     <!--Home-->
     <string name="no_connection">No connection available</string>
     <string name="app_changelog">Changelog</string>
