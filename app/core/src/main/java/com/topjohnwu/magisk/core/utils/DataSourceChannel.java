@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.utils;
+package com.mobai.magisk.core.utils;
 
 import org.apache.commons.io.input.BoundedInputStream;
 

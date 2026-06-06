@@ -1,19 +1,19 @@
-package com.topjohnwu.magisk.core.su
+package com.mobai.magisk.core.su
 
 import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.ktx.getLabel
-import com.topjohnwu.magisk.core.ktx.getPackageInfo
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.model.su.SuPolicy
-import com.topjohnwu.magisk.core.model.su.createSuLog
-import com.topjohnwu.magisk.view.Notifications
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.BuildConfig
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.core.ktx.getLabel
+import com.mobai.magisk.core.ktx.getPackageInfo
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.model.su.SuPolicy
+import com.mobai.magisk.core.model.su.createSuLog
+import com.mobai.magisk.view.Notifications
 import kotlinx.coroutines.runBlocking
 import timber.log.Timber
 

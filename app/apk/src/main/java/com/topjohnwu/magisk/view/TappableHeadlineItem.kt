@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.view
+package com.mobai.magisk.view
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.RvItem
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.R
+import com.mobai.magisk.databinding.DiffItem
+import com.mobai.magisk.databinding.RvItem
+import com.mobai.magisk.core.R as CoreR
 
 sealed class TappableHeadlineItem : RvItem(), DiffItem<TappableHeadlineItem> {
 

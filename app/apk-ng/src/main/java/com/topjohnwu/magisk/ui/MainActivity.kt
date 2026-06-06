@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui
+package com.mobai.magisk.ui
 
 import android.Manifest
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
@@ -29,35 +29,35 @@ import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDe
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.VMFactory
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.base.ActivityExtension
-import com.topjohnwu.magisk.core.base.SplashController
-import com.topjohnwu.magisk.core.base.SplashScreenHost
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.wrap
-import com.topjohnwu.magisk.ui.deny.DenyListScreen
-import com.topjohnwu.magisk.ui.deny.DenyListViewModel
-import com.topjohnwu.magisk.ui.flash.FlashScreen
-import com.topjohnwu.magisk.ui.flash.FlashUtils
-import com.topjohnwu.magisk.ui.flash.FlashViewModel
-import com.topjohnwu.magisk.ui.module.ActionScreen
-import com.topjohnwu.magisk.ui.module.ActionViewModel
-import com.topjohnwu.magisk.ui.navigation.LocalNavigator
-import com.topjohnwu.magisk.ui.navigation.Navigator
-import com.topjohnwu.magisk.ui.navigation.Route
-import com.topjohnwu.magisk.ui.navigation.rememberNavigator
-import com.topjohnwu.magisk.ui.superuser.SuperuserDetailScreen
-import com.topjohnwu.magisk.ui.superuser.SuperuserViewModel
-import com.topjohnwu.magisk.view.Shortcuts
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.VMFactory
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.base.ActivityExtension
+import com.mobai.magisk.core.base.SplashController
+import com.mobai.magisk.core.base.SplashScreenHost
+import com.mobai.magisk.core.isRunningAsStub
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.tasks.AppMigration
+import com.mobai.magisk.core.wrap
+import com.mobai.magisk.ui.deny.DenyListScreen
+import com.mobai.magisk.ui.deny.DenyListViewModel
+import com.mobai.magisk.ui.flash.FlashScreen
+import com.mobai.magisk.ui.flash.FlashUtils
+import com.mobai.magisk.ui.flash.FlashViewModel
+import com.mobai.magisk.ui.module.ActionScreen
+import com.mobai.magisk.ui.module.ActionViewModel
+import com.mobai.magisk.ui.navigation.LocalNavigator
+import com.mobai.magisk.ui.navigation.Navigator
+import com.mobai.magisk.ui.navigation.Route
+import com.mobai.magisk.ui.navigation.rememberNavigator
+import com.mobai.magisk.ui.superuser.SuperuserDetailScreen
+import com.mobai.magisk.ui.superuser.SuperuserViewModel
+import com.mobai.magisk.view.Shortcuts
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class MainActivity : ComponentActivity(), SplashScreenHost {
 
@@ -265,7 +265,7 @@ private fun MainActivityDialogs(activity: MainActivity) {
     val unsupportedMessages by activity.showUnsupported.collectAsState()
     val showShortcut by activity.showShortcutPrompt.collectAsState()
 
-    val invalidDialog = com.topjohnwu.magisk.ui.component.rememberConfirmDialog(
+    val invalidDialog = com.mobai.magisk.ui.component.rememberConfirmDialog(
         onConfirm = {
             activity.showInvalidState.value = false
             activity.handleInvalidStateInstall()
@@ -286,7 +286,7 @@ private fun MainActivityDialogs(activity: MainActivity) {
     for ((index, pair) in unsupportedMessages.withIndex()) {
         val (titleRes, msgRes) = pair
         val show = rememberSaveable { androidx.compose.runtime.mutableStateOf(true) }
-        com.topjohnwu.magisk.ui.component.rememberConfirmDialog(
+        com.mobai.magisk.ui.component.rememberConfirmDialog(
             onConfirm = { show.value = false },
         ).also { dialog ->
             LaunchedEffect(Unit) {
@@ -298,7 +298,7 @@ private fun MainActivityDialogs(activity: MainActivity) {
         }
     }
 
-    val shortcutDialog = com.topjohnwu.magisk.ui.component.rememberConfirmDialog(
+    val shortcutDialog = com.mobai.magisk.ui.component.rememberConfirmDialog(
         onConfirm = {
             activity.showShortcutPrompt.value = false
             Shortcuts.addHomeIcon(activity)

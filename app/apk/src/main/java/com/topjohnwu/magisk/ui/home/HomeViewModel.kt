@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.home
+package com.mobai.magisk.ui.home
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -6,31 +6,31 @@ import android.content.Intent
 import android.widget.Toast
 import androidx.core.net.toUri
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.ActivityExecutor
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.arch.ContextExecutor
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.arch.ViewEvent
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.download.Subject.App
-import com.topjohnwu.magisk.core.ktx.await
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.repository.NetworkService
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.dialog.EnvFixDialog
-import com.topjohnwu.magisk.dialog.ManagerInstallDialog
-import com.topjohnwu.magisk.dialog.UninstallDialog
-import com.topjohnwu.magisk.events.SnackbarEvent
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.ActivityExecutor
+import com.mobai.magisk.arch.AsyncLoadViewModel
+import com.mobai.magisk.arch.ContextExecutor
+import com.mobai.magisk.arch.UIActivity
+import com.mobai.magisk.arch.ViewEvent
+import com.mobai.magisk.core.BuildConfig
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.download.Subject
+import com.mobai.magisk.core.download.Subject.App
+import com.mobai.magisk.core.ktx.await
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.repository.NetworkService
+import com.mobai.magisk.core.utils.asText
+import com.mobai.magisk.databinding.bindExtra
+import com.mobai.magisk.databinding.set
+import com.mobai.magisk.dialog.EnvFixDialog
+import com.mobai.magisk.dialog.ManagerInstallDialog
+import com.mobai.magisk.dialog.UninstallDialog
+import com.mobai.magisk.events.SnackbarEvent
 import com.topjohnwu.superuser.Shell
 import kotlin.math.roundToInt
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class HomeViewModel(
     private val svc: NetworkService

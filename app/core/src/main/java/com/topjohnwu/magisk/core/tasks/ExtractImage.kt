@@ -1,6 +1,6 @@
-package com.topjohnwu.magisk.core.tasks
+package com.mobai.magisk.core.tasks
 
-import com.topjohnwu.magisk.core.utils.DataSourceChannel
+import com.mobai.magisk.core.utils.DataSourceChannel
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry
 import org.apache.commons.compress.archivers.zip.ZipFile
 import org.apache.commons.compress.archivers.zip.ZipMethod

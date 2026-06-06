@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.view
+package com.mobai.magisk.view
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.RvItem
+import com.mobai.magisk.R
+import com.mobai.magisk.databinding.DiffItem
+import com.mobai.magisk.databinding.ItemWrapper
+import com.mobai.magisk.databinding.RvItem
 
 class TextItem(override val item: Int) : RvItem(), DiffItem<TextItem>, ItemWrapper<Int> {
     override val layoutRes = R.layout.item_text

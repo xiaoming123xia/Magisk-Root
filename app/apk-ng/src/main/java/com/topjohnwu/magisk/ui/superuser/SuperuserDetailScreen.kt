@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.superuser
+package com.mobai.magisk.ui.superuser
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -38,11 +38,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
-import com.topjohnwu.magisk.ui.component.ConfirmResult
-import com.topjohnwu.magisk.ui.component.SettingsSwitch
-import com.topjohnwu.magisk.ui.component.rememberConfirmDialog
+import com.mobai.magisk.ui.component.ConfirmResult
+import com.mobai.magisk.ui.component.SettingsSwitch
+import com.mobai.magisk.ui.component.rememberConfirmDialog
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

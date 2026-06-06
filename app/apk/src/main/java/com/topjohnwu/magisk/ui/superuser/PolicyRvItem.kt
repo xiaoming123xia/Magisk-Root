@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.superuser
+package com.mobai.magisk.ui.superuser
 
 import android.graphics.drawable.Drawable
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.model.su.SuPolicy
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.model.su.SuPolicy
+import com.mobai.magisk.databinding.DiffItem
+import com.mobai.magisk.databinding.ItemWrapper
+import com.mobai.magisk.databinding.ObservableRvItem
+import com.mobai.magisk.databinding.set
+import com.mobai.magisk.core.R as CoreR
 
 class PolicyRvItem(
     private val viewModel: SuperuserViewModel,

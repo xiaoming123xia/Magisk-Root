@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.core.tasks
+package com.mobai.magisk.core.tasks
 
 import android.net.Uri
 import androidx.core.net.toFile
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.ktx.writeTo
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils.displayName
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils.inputStream
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.ktx.writeTo
+import com.mobai.magisk.core.utils.MediaStoreUtils.displayName
+import com.mobai.magisk.core.utils.MediaStoreUtils.inputStream
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

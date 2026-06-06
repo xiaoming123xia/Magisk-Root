@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.arch
+package com.mobai.magisk.arch
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.viewModelScope

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.utils
+package com.mobai.magisk.core.utils
 
 object DummyList : java.util.AbstractList<String>() {
 

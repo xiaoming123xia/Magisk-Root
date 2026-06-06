@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.settings
+package com.mobai.magisk.ui.settings
 
 import android.widget.Toast
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.ui.navigation.Route
-import com.topjohnwu.magisk.view.Shortcuts
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.utils.RootUtils
+import com.mobai.magisk.ui.navigation.Route
+import com.mobai.magisk.view.Shortcuts
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

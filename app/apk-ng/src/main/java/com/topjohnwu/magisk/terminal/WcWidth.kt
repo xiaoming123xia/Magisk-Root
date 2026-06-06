@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.terminal
+package com.mobai.magisk.terminal
 
 /**
  * Implementation of wcwidth(3) for Unicode 15.

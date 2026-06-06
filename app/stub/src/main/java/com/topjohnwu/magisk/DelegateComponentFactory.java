@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk;
+package com.mobai.magisk;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,9 +10,9 @@ import android.content.ContentProvider;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 
-import com.topjohnwu.magisk.dummy.DummyProvider;
-import com.topjohnwu.magisk.dummy.DummyReceiver;
-import com.topjohnwu.magisk.dummy.DummyService;
+import com.mobai.magisk.dummy.DummyProvider;
+import com.mobai.magisk.dummy.DummyReceiver;
+import com.mobai.magisk.dummy.DummyService;
 
 @SuppressLint("NewApi")
 public class DelegateComponentFactory extends AppComponentFactory {

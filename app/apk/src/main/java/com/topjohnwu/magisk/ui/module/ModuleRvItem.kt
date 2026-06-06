@@ -1,18 +1,18 @@
-package com.topjohnwu.magisk.ui.module
+package com.mobai.magisk.ui.module
 
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.RvItem
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.model.module.LocalModule
+import com.mobai.magisk.core.utils.TextHolder
+import com.mobai.magisk.core.utils.asText
+import com.mobai.magisk.databinding.DiffItem
+import com.mobai.magisk.databinding.ItemWrapper
+import com.mobai.magisk.databinding.ObservableRvItem
+import com.mobai.magisk.databinding.RvItem
+import com.mobai.magisk.databinding.set
+import com.mobai.magisk.core.R as CoreR
 
 object InstallModule : RvItem(), DiffItem<InstallModule> {
     override val layoutRes = R.layout.item_module_download

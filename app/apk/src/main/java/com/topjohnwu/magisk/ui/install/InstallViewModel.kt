@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.install
+package com.mobai.magisk.ui.install
 
 import android.net.Uri
 import android.os.Bundle
@@ -10,21 +10,21 @@ import androidx.databinding.Bindable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_CODE
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.base.ContentResultCallback
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.repository.NetworkService
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.dialog.DownloadDialog
-import com.topjohnwu.magisk.dialog.SecondSlotWarningDialog
-import com.topjohnwu.magisk.events.GetContentEvent
-import com.topjohnwu.magisk.ui.flash.FlashFragment
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.BuildConfig.APP_VERSION_CODE
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.base.ContentResultCallback
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.repository.NetworkService
+import com.mobai.magisk.databinding.set
+import com.mobai.magisk.dialog.DownloadDialog
+import com.mobai.magisk.dialog.SecondSlotWarningDialog
+import com.mobai.magisk.events.GetContentEvent
+import com.mobai.magisk.ui.flash.FlashFragment
 import io.noties.markwon.Markwon
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -33,7 +33,7 @@ import kotlinx.parcelize.Parcelize
 import timber.log.Timber
 import java.io.File
 import java.io.IOException
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class InstallViewModel(svc: NetworkService, markwon: Markwon) : BaseViewModel() {
 

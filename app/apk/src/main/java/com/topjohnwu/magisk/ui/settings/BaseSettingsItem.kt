@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.settings
+package com.mobai.magisk.ui.settings
 
 import android.content.Context
 import android.content.res.Resources
 import android.view.View
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.ktx.activity
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.core.ktx.activity
+import com.mobai.magisk.core.utils.TextHolder
+import com.mobai.magisk.databinding.ObservableRvItem
+import com.mobai.magisk.databinding.set
+import com.mobai.magisk.view.MagiskDialog
 
 sealed class BaseSettingsItem : ObservableRvItem() {
 

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.su
+package com.mobai.magisk.core.su
 
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

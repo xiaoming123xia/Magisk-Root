@@ -1,6 +1,6 @@
-package com.topjohnwu.magisk.core.model.su
+package com.mobai.magisk.core.model.su
 
-import com.topjohnwu.magisk.core.data.magiskdb.MagiskDB
+import com.mobai.magisk.core.data.magiskdb.MagiskDB
 
 class SuPolicy(
     val uid: Int,

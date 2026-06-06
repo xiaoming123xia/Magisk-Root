@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.deny
+package com.mobai.magisk.ui.deny
 
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES
 import androidx.databinding.Bindable
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.ktx.concurrentMap
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.databinding.filterList
-import com.topjohnwu.magisk.databinding.set
+import com.mobai.magisk.BR
+import com.mobai.magisk.arch.AsyncLoadViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.ktx.concurrentMap
+import com.mobai.magisk.databinding.bindExtra
+import com.mobai.magisk.databinding.filterList
+import com.mobai.magisk.databinding.set
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.asFlow

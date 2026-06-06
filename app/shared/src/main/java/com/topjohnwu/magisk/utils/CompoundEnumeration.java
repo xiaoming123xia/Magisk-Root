@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.utils;
+package com.mobai.magisk.utils;
 
 import java.util.Enumeration;
 import java.util.NoSuchElementException;

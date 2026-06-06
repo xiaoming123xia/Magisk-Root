@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core
+package com.mobai.magisk.core
 
 import android.os.Bundle
-import com.topjohnwu.magisk.core.base.BaseProvider
-import com.topjohnwu.magisk.core.su.SuCallbackHandler
+import com.mobai.magisk.core.base.BaseProvider
+import com.mobai.magisk.core.su.SuCallbackHandler
 
 class Provider : BaseProvider() {
 

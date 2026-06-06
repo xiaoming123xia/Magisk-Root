@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.dummy;
+package com.mobai.magisk.dummy;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

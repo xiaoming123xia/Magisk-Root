@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.superuser
+package com.mobai.magisk.ui.superuser
 
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager
@@ -10,15 +10,15 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.data.magiskdb.PolicyDao
-import com.topjohnwu.magisk.core.ktx.getLabel
-import com.topjohnwu.magisk.core.model.su.SuPolicy
-import com.topjohnwu.magisk.core.su.SuEvents
+import com.mobai.magisk.arch.AsyncLoadViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.data.magiskdb.PolicyDao
+import com.mobai.magisk.core.ktx.getLabel
+import com.mobai.magisk.core.model.su.SuPolicy
+import com.mobai.magisk.core.su.SuEvents
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

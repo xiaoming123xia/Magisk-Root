@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.model
+package com.mobai.magisk.core.model
 
 import android.os.Parcelable
 import com.squareup.moshi.FromJson

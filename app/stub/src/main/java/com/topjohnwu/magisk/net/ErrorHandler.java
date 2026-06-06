@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.net;
+package com.mobai.magisk.net;
 
 import java.net.HttpURLConnection;
 

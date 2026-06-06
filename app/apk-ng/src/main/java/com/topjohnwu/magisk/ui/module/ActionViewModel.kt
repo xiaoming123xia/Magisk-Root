@@ -1,13 +1,13 @@
-package com.topjohnwu.magisk.ui.module
+package com.mobai.magisk.ui.module
 
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.ktx.timeFormatStandard
-import com.topjohnwu.magisk.core.ktx.toTime
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils.outputStream
-import com.topjohnwu.magisk.terminal.TerminalEmulator
-import com.topjohnwu.magisk.terminal.runSuCommand
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.core.ktx.timeFormatStandard
+import com.mobai.magisk.core.ktx.toTime
+import com.mobai.magisk.core.utils.MediaStoreUtils
+import com.mobai.magisk.core.utils.MediaStoreUtils.outputStream
+import com.mobai.magisk.terminal.TerminalEmulator
+import com.mobai.magisk.terminal.runSuCommand
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

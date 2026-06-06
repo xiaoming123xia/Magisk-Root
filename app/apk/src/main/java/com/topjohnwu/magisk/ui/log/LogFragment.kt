@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.log
+package com.mobai.magisk.ui.log
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,17 +8,17 @@ import android.view.View
 import android.widget.HorizontalScrollView
 import androidx.core.view.MenuProvider
 import androidx.core.view.isVisible
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.databinding.FragmentLogMd2Binding
-import com.topjohnwu.magisk.ui.MainActivity
-import com.topjohnwu.magisk.utils.AccessibilityUtils
-import com.topjohnwu.magisk.utils.MotionRevealHelper
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.BaseFragment
+import com.mobai.magisk.arch.viewModel
+import com.mobai.magisk.databinding.FragmentLogMd2Binding
+import com.mobai.magisk.ui.MainActivity
+import com.mobai.magisk.utils.AccessibilityUtils
+import com.mobai.magisk.utils.MotionRevealHelper
 import rikka.recyclerview.addEdgeSpacing
 import rikka.recyclerview.addItemSpacing
 import rikka.recyclerview.fixEdgeEffect
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class LogFragment : BaseFragment<FragmentLogMd2Binding>(), MenuProvider {
 

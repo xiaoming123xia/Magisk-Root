@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk.ui.theme
+package com.mobai.magisk.ui.theme
 
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.dialog.DarkThemeDialog
-import com.topjohnwu.magisk.events.RecreateEvent
-import com.topjohnwu.magisk.view.TappableHeadlineItem
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.dialog.DarkThemeDialog
+import com.mobai.magisk.events.RecreateEvent
+import com.mobai.magisk.view.TappableHeadlineItem
 
 class ThemeViewModel : BaseViewModel(), TappableHeadlineItem.Listener {
 

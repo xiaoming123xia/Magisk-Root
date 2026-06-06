@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.core.di
+package com.mobai.magisk.core.di
 
 import android.content.Context
 import com.squareup.moshi.Moshi
-import com.topjohnwu.magisk.ProviderInstaller
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.model.DateTimeAdapter
-import com.topjohnwu.magisk.core.utils.LocaleSetting
+import com.mobai.magisk.ProviderInstaller
+import com.mobai.magisk.core.BuildConfig
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.model.DateTimeAdapter
+import com.mobai.magisk.core.utils.LocaleSetting
 import okhttp3.Cache
 import okhttp3.ConnectionSpec
 import okhttp3.Dns

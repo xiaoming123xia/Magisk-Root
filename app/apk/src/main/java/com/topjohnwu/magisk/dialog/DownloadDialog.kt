@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.dialog
+package com.mobai.magisk.dialog
 
 import android.net.Uri
 import android.text.InputType
 import android.widget.EditText
 import androidx.core.net.toUri
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.mobai.magisk.core.R
+import com.mobai.magisk.events.DialogBuilder
+import com.mobai.magisk.view.MagiskDialog
 
 class DownloadDialog(private val callback: (Uri) -> Unit) : DialogBuilder {
 

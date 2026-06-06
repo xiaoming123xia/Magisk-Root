@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.flash
+package com.mobai.magisk.ui.flash
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,15 +13,15 @@ import android.view.View
 import androidx.core.view.MenuProvider
 import androidx.core.view.isVisible
 import androidx.navigation.NavDeepLinkBuilder
-import com.topjohnwu.magisk.MainDirections
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.cmp
-import com.topjohnwu.magisk.databinding.FragmentFlashMd2Binding
-import com.topjohnwu.magisk.ui.MainActivity
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.MainDirections
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.BaseFragment
+import com.mobai.magisk.arch.viewModel
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.cmp
+import com.mobai.magisk.databinding.FragmentFlashMd2Binding
+import com.mobai.magisk.ui.MainActivity
+import com.mobai.magisk.core.R as CoreR
 
 class FlashFragment : BaseFragment<FragmentFlashMd2Binding>(), MenuProvider {
 

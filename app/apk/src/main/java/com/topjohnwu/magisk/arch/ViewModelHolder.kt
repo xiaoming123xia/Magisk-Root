@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.arch
+package com.mobai.magisk.arch
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStoreOwner
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.ui.home.HomeViewModel
-import com.topjohnwu.magisk.ui.install.InstallViewModel
-import com.topjohnwu.magisk.ui.log.LogViewModel
-import com.topjohnwu.magisk.ui.superuser.SuperuserViewModel
-import com.topjohnwu.magisk.ui.surequest.SuRequestViewModel
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.ui.home.HomeViewModel
+import com.mobai.magisk.ui.install.InstallViewModel
+import com.mobai.magisk.ui.log.LogViewModel
+import com.mobai.magisk.ui.superuser.SuperuserViewModel
+import com.mobai.magisk.ui.surequest.SuRequestViewModel
 
 interface ViewModelHolder : LifecycleOwner, ViewModelStoreOwner {
 

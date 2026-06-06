@@ -1,15 +1,15 @@
-package com.topjohnwu.magisk.ui.superuser
+package com.mobai.magisk.ui.superuser
 
 import android.os.Bundle
 import android.view.View
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.databinding.FragmentSuperuserMd2Binding
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.BaseFragment
+import com.mobai.magisk.arch.viewModel
+import com.mobai.magisk.databinding.FragmentSuperuserMd2Binding
 import rikka.recyclerview.addEdgeSpacing
 import rikka.recyclerview.addItemSpacing
 import rikka.recyclerview.fixEdgeEffect
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class SuperuserFragment : BaseFragment<FragmentSuperuserMd2Binding>() {
 

@@ -1,7 +1,7 @@
-package com.topjohnwu.magisk.core.repository
+package com.mobai.magisk.core.repository
 
-import com.topjohnwu.magisk.core.data.magiskdb.SettingsDao
-import com.topjohnwu.magisk.core.data.magiskdb.StringDao
+import com.mobai.magisk.core.data.magiskdb.SettingsDao
+import com.mobai.magisk.core.data.magiskdb.StringDao
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.install
+package com.mobai.magisk.ui.install
 
 import android.net.Uri
 import android.widget.Toast
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_CODE
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.repository.NetworkService
-import com.topjohnwu.magisk.ui.navigation.Route
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.BuildConfig.APP_VERSION_CODE
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.repository.NetworkService
+import com.mobai.magisk.ui.navigation.Route
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -21,7 +21,7 @@ import kotlinx.coroutines.withContext
 import timber.log.Timber
 import java.io.File
 import java.io.IOException
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class InstallViewModel(svc: NetworkService) : BaseViewModel() {
 

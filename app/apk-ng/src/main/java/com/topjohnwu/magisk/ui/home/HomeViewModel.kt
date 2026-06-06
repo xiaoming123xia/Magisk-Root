@@ -1,23 +1,23 @@
-package com.topjohnwu.magisk.ui.home
+package com.mobai.magisk.ui.home
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.widget.Toast
 import androidx.core.net.toUri
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.ktx.await
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.repository.NetworkService
+import com.mobai.magisk.arch.AsyncLoadViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.BuildConfig
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.ktx.await
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.repository.NetworkService
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class HomeViewModel(
     private val svc: NetworkService

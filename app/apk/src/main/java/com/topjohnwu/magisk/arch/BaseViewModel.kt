@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.arch
+package com.mobai.magisk.arch
 
 import android.Manifest.permission.POST_NOTIFICATIONS
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
@@ -10,14 +10,14 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.navigation.NavDirections
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.databinding.ObservableHost
-import com.topjohnwu.magisk.events.BackPressEvent
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.events.DialogEvent
-import com.topjohnwu.magisk.events.NavigationEvent
-import com.topjohnwu.magisk.events.PermissionEvent
-import com.topjohnwu.magisk.events.SnackbarEvent
+import com.mobai.magisk.core.R
+import com.mobai.magisk.databinding.ObservableHost
+import com.mobai.magisk.events.BackPressEvent
+import com.mobai.magisk.events.DialogBuilder
+import com.mobai.magisk.events.DialogEvent
+import com.mobai.magisk.events.NavigationEvent
+import com.mobai.magisk.events.PermissionEvent
+import com.mobai.magisk.events.SnackbarEvent
 
 abstract class BaseViewModel : ViewModel(), ObservableHost {
 

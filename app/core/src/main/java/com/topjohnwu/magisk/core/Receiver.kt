@@ -1,15 +1,15 @@
-package com.topjohnwu.magisk.core
+package com.mobai.magisk.core
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.IntentCompat
-import com.topjohnwu.magisk.core.base.BaseReceiver
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.view.Notifications
-import com.topjohnwu.magisk.view.Shortcuts
+import com.mobai.magisk.core.base.BaseReceiver
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.core.download.DownloadEngine
+import com.mobai.magisk.core.download.Subject
+import com.mobai.magisk.view.Notifications
+import com.mobai.magisk.view.Shortcuts
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

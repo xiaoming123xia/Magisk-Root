@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.install
+package com.mobai.magisk.ui.install
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -37,13 +37,13 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.ui.component.ConfirmResult
-import com.topjohnwu.magisk.ui.component.MarkdownText
-import com.topjohnwu.magisk.ui.component.SettingsArrow
-import com.topjohnwu.magisk.ui.component.rememberConfirmDialog
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.ui.component.ConfirmResult
+import com.mobai.magisk.ui.component.MarkdownText
+import com.mobai.magisk.ui.component.SettingsArrow
+import com.mobai.magisk.ui.component.rememberConfirmDialog
+import com.mobai.magisk.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

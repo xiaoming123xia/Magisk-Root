@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.signing;
+package com.mobai.magisk.core.signing;
 
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;

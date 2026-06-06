@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.ui.home
+package com.mobai.magisk.ui.home
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.databinding.RvItem
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.R
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.databinding.RvItem
+import com.mobai.magisk.core.R as CoreR
 
 interface Dev {
     val name: String

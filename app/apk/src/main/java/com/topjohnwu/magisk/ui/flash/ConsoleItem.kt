@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.ui.flash
+package com.mobai.magisk.ui.flash
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.RvItem
+import com.mobai.magisk.R
+import com.mobai.magisk.databinding.DiffItem
+import com.mobai.magisk.databinding.ItemWrapper
+import com.mobai.magisk.databinding.RvItem
 
 class ConsoleItem(
     override val item: String

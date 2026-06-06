@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk;
+package com.mobai.magisk;
 
 import android.app.Application;
 import android.content.Context;

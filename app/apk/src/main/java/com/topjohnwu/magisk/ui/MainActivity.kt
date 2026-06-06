@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui
+package com.mobai.magisk.ui
 
 import android.Manifest
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
@@ -16,29 +16,29 @@ import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavDirections
-import com.topjohnwu.magisk.MainDirections
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.arch.NavigationActivity
-import com.topjohnwu.magisk.arch.startAnimations
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.base.SplashController
-import com.topjohnwu.magisk.core.base.SplashScreenHost
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.databinding.ActivityMainMd2Binding
-import com.topjohnwu.magisk.ui.home.HomeFragmentDirections
-import com.topjohnwu.magisk.ui.theme.Theme
-import com.topjohnwu.magisk.view.MagiskDialog
-import com.topjohnwu.magisk.view.Shortcuts
+import com.mobai.magisk.MainDirections
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.arch.NavigationActivity
+import com.mobai.magisk.arch.startAnimations
+import com.mobai.magisk.arch.viewModel
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.base.SplashController
+import com.mobai.magisk.core.base.SplashScreenHost
+import com.mobai.magisk.core.isRunningAsStub
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.model.module.LocalModule
+import com.mobai.magisk.core.tasks.AppMigration
+import com.mobai.magisk.databinding.ActivityMainMd2Binding
+import com.mobai.magisk.ui.home.HomeFragmentDirections
+import com.mobai.magisk.ui.theme.Theme
+import com.mobai.magisk.view.MagiskDialog
+import com.mobai.magisk.view.Shortcuts
 import kotlinx.coroutines.launch
 import java.io.File
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 class MainViewModel : BaseViewModel()
 

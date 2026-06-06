@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core
+package com.mobai.magisk.core
 
 import android.os.Build
 import android.os.Process
-import com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_CODE
+import com.mobai.magisk.core.BuildConfig.APP_VERSION_CODE
 
 @Suppress("DEPRECATION")
 object Const {

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.settings
+package com.mobai.magisk.ui.settings
 
 import android.app.Activity
 import android.content.Intent
@@ -9,24 +9,24 @@ import android.view.View
 import android.widget.Toast
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.activity
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.events.AddHomeIconEvent
-import com.topjohnwu.magisk.events.AuthEvent
-import com.topjohnwu.magisk.events.SnackbarEvent
+import com.mobai.magisk.BR
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.BuildConfig
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.isRunningAsStub
+import com.mobai.magisk.core.ktx.activity
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.tasks.AppMigration
+import com.mobai.magisk.core.utils.LocaleSetting
+import com.mobai.magisk.core.utils.RootUtils
+import com.mobai.magisk.databinding.bindExtra
+import com.mobai.magisk.events.AddHomeIconEvent
+import com.mobai.magisk.events.AuthEvent
+import com.mobai.magisk.events.SnackbarEvent
 import kotlinx.coroutines.launch
 
 class SettingsViewModel : BaseViewModel(), BaseSettingsItem.Handler {

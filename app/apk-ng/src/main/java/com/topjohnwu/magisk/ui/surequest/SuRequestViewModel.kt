@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.surequest
+package com.mobai.magisk.ui.surequest
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -10,14 +10,14 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.data.magiskdb.PolicyDao
-import com.topjohnwu.magisk.core.ktx.getLabel
-import com.topjohnwu.magisk.core.model.su.SuPolicy.Companion.ALLOW
-import com.topjohnwu.magisk.core.model.su.SuPolicy.Companion.DENY
-import com.topjohnwu.magisk.core.su.SuRequestHandler
+import com.mobai.magisk.arch.BaseViewModel
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.data.magiskdb.PolicyDao
+import com.mobai.magisk.core.ktx.getLabel
+import com.mobai.magisk.core.model.su.SuPolicy.Companion.ALLOW
+import com.mobai.magisk.core.model.su.SuPolicy.Companion.DENY
+import com.mobai.magisk.core.su.SuRequestHandler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit.SECONDS

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.module
+package com.mobai.magisk.ui.module
 
 import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
@@ -12,12 +12,12 @@ import android.view.ViewTreeObserver
 import android.widget.Toast
 import androidx.core.view.MenuProvider
 import androidx.core.view.isVisible
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.databinding.FragmentActionMd2Binding
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.BaseFragment
+import com.mobai.magisk.arch.viewModel
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.databinding.FragmentActionMd2Binding
+import com.mobai.magisk.core.R as CoreR
 
 class ActionFragment : BaseFragment<FragmentActionMd2Binding>(), MenuProvider {
 

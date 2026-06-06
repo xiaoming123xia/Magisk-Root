@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk.core.repository
+package com.mobai.magisk.core.repository
 
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.data.SuLogDao
-import com.topjohnwu.magisk.core.ktx.await
-import com.topjohnwu.magisk.core.model.su.SuLog
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.data.SuLogDao
+import com.mobai.magisk.core.ktx.await
+import com.mobai.magisk.core.model.su.SuLog
 import com.topjohnwu.superuser.Shell
 
 

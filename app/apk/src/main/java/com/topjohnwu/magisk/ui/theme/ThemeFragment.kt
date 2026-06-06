@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.theme
+package com.mobai.magisk.ui.theme
 
 import android.os.Bundle
 import android.view.ContextThemeWrapper
@@ -6,13 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.databinding.FragmentThemeMd2Binding
-import com.topjohnwu.magisk.databinding.ItemThemeBindingImpl
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.BaseFragment
+import com.mobai.magisk.arch.viewModel
+import com.mobai.magisk.databinding.FragmentThemeMd2Binding
+import com.mobai.magisk.databinding.ItemThemeBindingImpl
+import com.mobai.magisk.core.R as CoreR
 
 class ThemeFragment : BaseFragment<FragmentThemeMd2Binding>() {
 

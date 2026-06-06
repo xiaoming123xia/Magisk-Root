@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.base
+package com.mobai.magisk.core.base
 
 import android.Manifest.permission.POST_NOTIFICATIONS
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
@@ -15,11 +15,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.result.ActivityResultCallback
 import androidx.activity.result.contract.ActivityResultContracts.GetContent
 import androidx.activity.result.contract.ActivityResultContracts.RequestPermission
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.ktx.reflectField
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.utils.RequestAuthentication
-import com.topjohnwu.magisk.core.utils.RequestInstall
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.ktx.reflectField
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.utils.RequestAuthentication
+import com.mobai.magisk.core.utils.RequestInstall
 
 interface ContentResultCallback: ActivityResultCallback<Uri>, Parcelable {
     fun onActivityLaunch() {}

@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk.core.model.su
+package com.mobai.magisk.core.model.su
 
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.topjohnwu.magisk.core.ktx.getLabel
+import com.mobai.magisk.core.ktx.getLabel
 
 @Entity(tableName = "logs")
 class SuLog(

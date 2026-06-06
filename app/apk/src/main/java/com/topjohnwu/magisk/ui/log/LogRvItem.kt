@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.ui.log
+package com.mobai.magisk.ui.log
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.ObservableRvItem
+import com.mobai.magisk.R
+import com.mobai.magisk.databinding.DiffItem
+import com.mobai.magisk.databinding.ItemWrapper
+import com.mobai.magisk.databinding.ObservableRvItem
 
 class LogRvItem(
     override val item: String

@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.core.tasks
+package com.mobai.magisk.core.tasks
 
 import chromeos_update_engine.DeltaArchiveManifest
 import chromeos_update_engine.InstallOperation
 import chromeos_update_engine.PartitionUpdate
-import com.topjohnwu.magisk.core.utils.DataSourceChannel
+import com.mobai.magisk.core.utils.DataSourceChannel
 import org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream
 import org.apache.commons.compress.compressors.xz.XZCompressorInputStream
 import java.io.File

@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.dialog
+package com.mobai.magisk.dialog
 
 import android.app.ProgressDialog
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
-import com.topjohnwu.magisk.arch.NavigationActivity
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.MagiskInstaller
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.ui.flash.FlashFragment
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.mobai.magisk.arch.NavigationActivity
+import com.mobai.magisk.arch.UIActivity
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.tasks.MagiskInstaller
+import com.mobai.magisk.events.DialogBuilder
+import com.mobai.magisk.ui.flash.FlashFragment
+import com.mobai.magisk.view.MagiskDialog
 import kotlinx.coroutines.launch
 
 class UninstallDialog : DialogBuilder {

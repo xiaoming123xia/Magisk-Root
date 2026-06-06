@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.topjohnwu.magisk.core
+package com.mobai.magisk.core
 
 import android.content.ComponentName
 import android.content.Context
@@ -8,9 +8,9 @@ import android.content.ContextWrapper
 import android.content.Intent
 import android.content.res.Configuration
 import android.content.res.Resources
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.ktx.unwrap
-import com.topjohnwu.magisk.core.utils.LocaleSetting
+import com.mobai.magisk.StubApk
+import com.mobai.magisk.core.ktx.unwrap
+import com.mobai.magisk.core.utils.LocaleSetting
 
 fun Resources.addAssetPath(path: String) = StubApk.addAssetPath(this, path)
 

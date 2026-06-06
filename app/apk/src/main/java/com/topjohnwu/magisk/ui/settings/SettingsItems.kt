@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.settings
+package com.mobai.magisk.ui.settings
 
 import android.content.Context
 import android.content.res.Resources
@@ -6,24 +6,24 @@ import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.ktx.activity
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.databinding.DialogSettingsAppNameBinding
-import com.topjohnwu.magisk.databinding.DialogSettingsDownloadPathBinding
-import com.topjohnwu.magisk.databinding.DialogSettingsUpdateChannelBinding
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.ktx.activity
+import com.mobai.magisk.core.tasks.AppMigration
+import com.mobai.magisk.core.utils.LocaleSetting
+import com.mobai.magisk.core.utils.MediaStoreUtils
+import com.mobai.magisk.core.utils.TextHolder
+import com.mobai.magisk.core.utils.asText
+import com.mobai.magisk.databinding.DialogSettingsAppNameBinding
+import com.mobai.magisk.databinding.DialogSettingsDownloadPathBinding
+import com.mobai.magisk.databinding.DialogSettingsUpdateChannelBinding
+import com.mobai.magisk.databinding.set
+import com.mobai.magisk.view.MagiskDialog
 import com.topjohnwu.superuser.Shell
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 // --- Customization
 

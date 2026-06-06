@@ -1,11 +1,11 @@
-package com.topjohnwu.magisk.arch
+package com.mobai.magisk.arch
 
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.ui.navigation.Route
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.ui.navigation.Route
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 

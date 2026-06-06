@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.module
+package com.mobai.magisk.ui.module
 
 import android.provider.OpenableColumns
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -64,17 +64,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.model.module.OnlineModule
-import com.topjohnwu.magisk.ui.MainActivity
-import com.topjohnwu.magisk.ui.component.ConfirmResult
-import com.topjohnwu.magisk.ui.component.MarkdownTextAsync
-import com.topjohnwu.magisk.ui.component.rememberConfirmDialog
-import com.topjohnwu.magisk.utils.textHolder
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.core.download.DownloadEngine
+import com.mobai.magisk.core.model.module.OnlineModule
+import com.mobai.magisk.ui.MainActivity
+import com.mobai.magisk.ui.component.ConfirmResult
+import com.mobai.magisk.ui.component.MarkdownTextAsync
+import com.mobai.magisk.ui.component.rememberConfirmDialog
+import com.mobai.magisk.utils.textHolder
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,11 +1,11 @@
-package com.topjohnwu.magisk.dialog
+package com.mobai.magisk.dialog
 
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.download.DownloadEngine
+import com.mobai.magisk.core.download.Subject
+import com.mobai.magisk.view.MagiskDialog
 import java.io.File
 
 class ManagerInstallDialog : MarkDownDialog() {

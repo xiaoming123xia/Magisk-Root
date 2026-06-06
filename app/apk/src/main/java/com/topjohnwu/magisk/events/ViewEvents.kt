@@ -1,21 +1,21 @@
-package com.topjohnwu.magisk.events
+package com.mobai.magisk.events
 
 import android.content.Context
 import android.view.View
 import androidx.annotation.StringRes
 import androidx.navigation.NavDirections
 import com.google.android.material.snackbar.Snackbar
-import com.topjohnwu.magisk.arch.ActivityExecutor
-import com.topjohnwu.magisk.arch.ContextExecutor
-import com.topjohnwu.magisk.arch.NavigationActivity
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.arch.ViewEvent
-import com.topjohnwu.magisk.core.base.ContentResultCallback
-import com.topjohnwu.magisk.core.base.relaunch
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.view.MagiskDialog
-import com.topjohnwu.magisk.view.Shortcuts
+import com.mobai.magisk.arch.ActivityExecutor
+import com.mobai.magisk.arch.ContextExecutor
+import com.mobai.magisk.arch.NavigationActivity
+import com.mobai.magisk.arch.UIActivity
+import com.mobai.magisk.arch.ViewEvent
+import com.mobai.magisk.core.base.ContentResultCallback
+import com.mobai.magisk.core.base.relaunch
+import com.mobai.magisk.core.utils.TextHolder
+import com.mobai.magisk.core.utils.asText
+import com.mobai.magisk.view.MagiskDialog
+import com.mobai.magisk.view.Shortcuts
 
 class PermissionEvent(
     private val permission: String,

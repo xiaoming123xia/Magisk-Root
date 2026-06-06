@@ -1,6 +1,6 @@
-package com.topjohnwu.magisk.core.ktx
+package com.mobai.magisk.core.ktx
 
-import com.topjohnwu.magisk.core.Config
+import com.mobai.magisk.core.Config
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

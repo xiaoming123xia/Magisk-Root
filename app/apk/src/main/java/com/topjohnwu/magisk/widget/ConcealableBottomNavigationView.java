@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.widget;
+package com.mobai.magisk.widget;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -14,7 +14,7 @@ import androidx.customview.view.AbsSavedState;
 import androidx.interpolator.view.animation.FastOutLinearInInterpolator;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.topjohnwu.magisk.R;
+import com.mobai.magisk.R;
 
 public class ConcealableBottomNavigationView extends BottomNavigationView {
 

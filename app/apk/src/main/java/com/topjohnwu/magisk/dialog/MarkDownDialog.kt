@@ -1,19 +1,19 @@
-package com.topjohnwu.magisk.dialog
+package com.mobai.magisk.dialog
 
 import android.view.LayoutInflater
 import android.widget.TextView
 import androidx.annotation.CallSuper
 import androidx.lifecycle.lifecycleScope
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.mobai.magisk.R
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.events.DialogBuilder
+import com.mobai.magisk.view.MagiskDialog
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import timber.log.Timber
 import java.io.IOException
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 abstract class MarkDownDialog : DialogBuilder {
 

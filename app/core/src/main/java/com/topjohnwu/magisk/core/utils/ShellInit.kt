@@ -1,13 +1,13 @@
-package com.topjohnwu.magisk.core.utils
+package com.mobai.magisk.core.utils
 
 import android.content.Context
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.cachedFile
-import com.topjohnwu.magisk.core.ktx.deviceProtectedContext
-import com.topjohnwu.magisk.core.ktx.writeTo
+import com.mobai.magisk.StubApk
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.isRunningAsStub
+import com.mobai.magisk.core.ktx.cachedFile
+import com.mobai.magisk.core.ktx.deviceProtectedContext
+import com.mobai.magisk.core.ktx.writeTo
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking

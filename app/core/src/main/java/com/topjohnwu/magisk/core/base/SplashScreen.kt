@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.base
+package com.mobai.magisk.core.base
 
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
 import android.os.Bundle
@@ -6,21 +6,21 @@ import androidx.activity.ComponentActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.BuildConfig.APP_PACKAGE_NAME
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.JobService
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.writeTo
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.view.Notifications
-import com.topjohnwu.magisk.view.Shortcuts
+import com.mobai.magisk.StubApk
+import com.mobai.magisk.core.BuildConfig
+import com.mobai.magisk.core.BuildConfig.APP_PACKAGE_NAME
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.JobService
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.core.isRunningAsStub
+import com.mobai.magisk.core.ktx.writeTo
+import com.mobai.magisk.core.tasks.AppMigration
+import com.mobai.magisk.core.utils.RootUtils
+import com.mobai.magisk.view.Notifications
+import com.mobai.magisk.view.Shortcuts
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.launch
 import timber.log.Timber
@@ -102,7 +102,7 @@ class SplashController<T>(private val activity: T)
 
         if (packageName != APP_PACKAGE_NAME) {
             runCatching {
-                // Hidden, remove com.topjohnwu.magisk if exist as it could be malware
+                // Hidden, remove com.mobai.magisk if exist as it could be malware
                 packageManager.getApplicationInfo(APP_PACKAGE_NAME, 0)
                 Shell.cmd("(pm uninstall $APP_PACKAGE_NAME)& >/dev/null 2>&1").exec()
             }

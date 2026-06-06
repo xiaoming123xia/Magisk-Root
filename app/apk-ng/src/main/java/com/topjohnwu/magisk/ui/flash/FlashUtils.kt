@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.flash
+package com.mobai.magisk.ui.flash
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.cmp
-import com.topjohnwu.magisk.ui.MainActivity
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.cmp
+import com.mobai.magisk.ui.MainActivity
 
 object FlashUtils {
 
-    const val INTENT_FLASH = "com.topjohnwu.magisk.intent.FLASH"
+    const val INTENT_FLASH = "com.mobai.magisk.intent.FLASH"
     const val EXTRA_FLASH_ACTION = "flash_action"
     const val EXTRA_FLASH_URI = "flash_uri"
 

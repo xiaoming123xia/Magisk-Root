@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui
+package com.mobai.magisk.ui
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
@@ -42,25 +42,25 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.VMFactory
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.ui.home.HomeScreen
-import com.topjohnwu.magisk.ui.home.HomeViewModel
-import com.topjohnwu.magisk.ui.install.InstallViewModel
-import com.topjohnwu.magisk.ui.log.LogScreen
-import com.topjohnwu.magisk.ui.log.LogViewModel
-import com.topjohnwu.magisk.ui.module.ModuleScreen
-import com.topjohnwu.magisk.ui.module.ModuleViewModel
-import com.topjohnwu.magisk.ui.navigation.CollectNavEvents
-import com.topjohnwu.magisk.ui.navigation.LocalNavigator
-import com.topjohnwu.magisk.ui.settings.SettingsScreen
-import com.topjohnwu.magisk.ui.settings.SettingsViewModel
-import com.topjohnwu.magisk.ui.superuser.SuperuserScreen
-import com.topjohnwu.magisk.ui.superuser.SuperuserViewModel
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.VMFactory
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.model.module.LocalModule
+import com.mobai.magisk.ui.home.HomeScreen
+import com.mobai.magisk.ui.home.HomeViewModel
+import com.mobai.magisk.ui.install.InstallViewModel
+import com.mobai.magisk.ui.log.LogScreen
+import com.mobai.magisk.ui.log.LogViewModel
+import com.mobai.magisk.ui.module.ModuleScreen
+import com.mobai.magisk.ui.module.ModuleViewModel
+import com.mobai.magisk.ui.navigation.CollectNavEvents
+import com.mobai.magisk.ui.navigation.LocalNavigator
+import com.mobai.magisk.ui.settings.SettingsScreen
+import com.mobai.magisk.ui.settings.SettingsViewModel
+import com.mobai.magisk.ui.superuser.SuperuserScreen
+import com.mobai.magisk.ui.superuser.SuperuserViewModel
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 enum class Tab(val titleRes: Int, val iconRes: Int) {
     MODULES(CoreR.string.modules, R.drawable.ic_module),

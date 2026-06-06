@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.utils
+package com.mobai.magisk.core.utils
 
 import android.annotation.SuppressLint
 import android.app.LocaleConfig
@@ -11,12 +11,12 @@ import android.os.Build
 import android.os.LocaleList
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import com.topjohnwu.magisk.core.AppApkPath
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.base.relaunch
-import com.topjohnwu.magisk.core.isRunningAsStub
+import com.mobai.magisk.core.AppApkPath
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.base.relaunch
+import com.mobai.magisk.core.isRunningAsStub
 import org.xmlpull.v1.XmlPullParser
 import java.util.Locale
 

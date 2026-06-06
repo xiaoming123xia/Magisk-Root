@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.signing;
+package com.mobai.magisk.core.signing;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

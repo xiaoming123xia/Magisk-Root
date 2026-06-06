@@ -1,13 +1,13 @@
-package com.topjohnwu.magisk.dialog
+package com.mobai.magisk.dialog
 
 import android.app.Activity
 import androidx.appcompat.app.AppCompatDelegate
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.view.MagiskDialog
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.UIActivity
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.events.DialogBuilder
+import com.mobai.magisk.view.MagiskDialog
+import com.mobai.magisk.core.R as CoreR
 
 class DarkThemeDialog : DialogBuilder {
 

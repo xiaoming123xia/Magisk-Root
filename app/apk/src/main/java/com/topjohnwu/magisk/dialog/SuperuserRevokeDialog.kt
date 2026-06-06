@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.dialog
+package com.mobai.magisk.dialog
 
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.mobai.magisk.core.R
+import com.mobai.magisk.events.DialogBuilder
+import com.mobai.magisk.view.MagiskDialog
 
 class SuperuserRevokeDialog(
     private val appName: String,

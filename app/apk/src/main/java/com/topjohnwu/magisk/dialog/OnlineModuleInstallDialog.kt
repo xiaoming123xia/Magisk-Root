@@ -1,14 +1,14 @@
-package com.topjohnwu.magisk.dialog
+package com.mobai.magisk.dialog
 
 import android.content.Context
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.model.module.OnlineModule
-import com.topjohnwu.magisk.ui.flash.FlashFragment
-import com.topjohnwu.magisk.view.MagiskDialog
-import com.topjohnwu.magisk.view.Notifications
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.core.download.DownloadEngine
+import com.mobai.magisk.core.download.Subject
+import com.mobai.magisk.core.model.module.OnlineModule
+import com.mobai.magisk.ui.flash.FlashFragment
+import com.mobai.magisk.view.MagiskDialog
+import com.mobai.magisk.view.Notifications
 import kotlinx.parcelize.Parcelize
 
 class OnlineModuleInstallDialog(private val item: OnlineModule) : MarkDownDialog() {

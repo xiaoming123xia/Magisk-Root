@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.terminal
+package com.mobai.magisk.terminal
 
 import android.graphics.Color
 import java.util.Properties

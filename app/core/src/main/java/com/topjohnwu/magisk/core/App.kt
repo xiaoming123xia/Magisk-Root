@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.core
+package com.mobai.magisk.core
 
 import android.app.Application
 import android.content.Context
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.utils.RootUtils
+import com.mobai.magisk.StubApk
+import com.mobai.magisk.core.utils.RootUtils
 
 open class App() : Application() {
 

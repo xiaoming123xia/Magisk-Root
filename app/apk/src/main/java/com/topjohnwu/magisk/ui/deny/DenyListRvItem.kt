@@ -1,15 +1,15 @@
-package com.topjohnwu.magisk.ui.deny
+package com.mobai.magisk.ui.deny
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.startAnimations
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.addOnPropertyChangedCallback
-import com.topjohnwu.magisk.databinding.set
+import com.mobai.magisk.BR
+import com.mobai.magisk.R
+import com.mobai.magisk.arch.startAnimations
+import com.mobai.magisk.databinding.DiffItem
+import com.mobai.magisk.databinding.ObservableRvItem
+import com.mobai.magisk.databinding.addOnPropertyChangedCallback
+import com.mobai.magisk.databinding.set
 import com.topjohnwu.superuser.Shell
 import kotlin.math.roundToInt
 

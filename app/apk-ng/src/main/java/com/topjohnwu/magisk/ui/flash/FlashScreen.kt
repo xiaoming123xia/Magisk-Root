@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.flash
+package com.mobai.magisk.ui.flash
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.fillMaxSize
@@ -28,10 +28,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.ui.terminal.TerminalScreen
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.R
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.ui.terminal.TerminalScreen
+import com.mobai.magisk.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 

@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk;
+package com.mobai.magisk;
 
 import android.content.pm.PackageInfo;
 
-import com.topjohnwu.magisk.dummy.DummyProvider;
-import com.topjohnwu.magisk.dummy.DummyReceiver;
-import com.topjohnwu.magisk.dummy.DummyService;
+import com.mobai.magisk.dummy.DummyProvider;
+import com.mobai.magisk.dummy.DummyReceiver;
+import com.mobai.magisk.dummy.DummyService;
 
 import java.util.HashMap;
 import java.util.Map;

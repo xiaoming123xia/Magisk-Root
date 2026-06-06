@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.download
+package com.mobai.magisk.core.download
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -15,17 +15,17 @@ import androidx.collection.isNotEmpty
 import androidx.core.content.getSystemService
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.JobService
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.base.IActivityExtension
-import com.topjohnwu.magisk.core.cmp
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.intent
-import com.topjohnwu.magisk.core.ktx.set
-import com.topjohnwu.magisk.core.utils.ProgressInputStream
-import com.topjohnwu.magisk.view.Notifications
+import com.mobai.magisk.core.AppContext
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.JobService
+import com.mobai.magisk.core.R
+import com.mobai.magisk.core.base.IActivityExtension
+import com.mobai.magisk.core.cmp
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.core.intent
+import com.mobai.magisk.core.ktx.set
+import com.mobai.magisk.core.utils.ProgressInputStream
+import com.mobai.magisk.view.Notifications
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -54,7 +54,7 @@ import java.io.InputStream
 class DownloadEngine(session: DownloadSession) : DownloadSession by session, DownloadNotifier {
 
     companion object {
-        const val ACTION = "com.topjohnwu.magisk.DOWNLOAD"
+        const val ACTION = "com.mobai.magisk.DOWNLOAD"
         const val SUBJECT_KEY = "subject"
         private const val REQUEST_CODE = 1
 
@@ -73,12 +73,12 @@ class DownloadEngine(session: DownloadSession) : DownloadSession by session, Dow
         }
 
         private fun createBroadcastIntent(context: Context, subject: Subject) =
-            context.intent<com.topjohnwu.magisk.core.Receiver>()
+            context.intent<com.mobai.magisk.core.Receiver>()
                 .setAction(ACTION)
                 .putExtra(SUBJECT_KEY, subject)
 
         private fun createServiceIntent(context: Context, subject: Subject) =
-            context.intent<com.topjohnwu.magisk.core.Service>()
+            context.intent<com.mobai.magisk.core.Service>()
                 .setAction(ACTION)
                 .putExtra(SUBJECT_KEY, subject)
 

@@ -1,11 +1,11 @@
-package com.topjohnwu.magisk.core
+package com.mobai.magisk.core
 
 import android.os.Bundle
 import androidx.core.content.edit
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.repository.DBConfig
-import com.topjohnwu.magisk.core.repository.PreferenceConfig
-import com.topjohnwu.magisk.core.utils.LocaleSetting
+import com.mobai.magisk.core.di.ServiceLocator
+import com.mobai.magisk.core.repository.DBConfig
+import com.mobai.magisk.core.repository.PreferenceConfig
+import com.mobai.magisk.core.utils.LocaleSetting
 import kotlinx.coroutines.GlobalScope
 
 object Config : PreferenceConfig, DBConfig {

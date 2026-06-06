@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.log
+package com.mobai.magisk.ui.log
 
 data class MagiskLogEntry(
     val timestamp: String = "",

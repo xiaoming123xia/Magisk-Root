@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.home
+package com.mobai.magisk.ui.home
 
 import android.content.Intent
 import android.os.Build
@@ -66,26 +66,26 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.getSystemService
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.ktx.reboot
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.tasks.MagiskInstaller
-import com.topjohnwu.magisk.ui.MainActivity
-import com.topjohnwu.magisk.ui.component.LoadingDialogHandle
-import com.topjohnwu.magisk.ui.component.MarkdownTextAsync
-import com.topjohnwu.magisk.ui.component.rememberLoadingDialog
-import com.topjohnwu.magisk.ui.flash.FlashUtils
-import com.topjohnwu.magisk.ui.install.InstallBottomSheet
-import com.topjohnwu.magisk.ui.install.InstallViewModel
+import com.mobai.magisk.R
+import com.mobai.magisk.core.BuildConfig
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.download.DownloadEngine
+import com.mobai.magisk.core.download.Subject
+import com.mobai.magisk.core.ktx.reboot
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.core.tasks.AppMigration
+import com.mobai.magisk.core.tasks.MagiskInstaller
+import com.mobai.magisk.ui.MainActivity
+import com.mobai.magisk.ui.component.LoadingDialogHandle
+import com.mobai.magisk.ui.component.MarkdownTextAsync
+import com.mobai.magisk.ui.component.rememberLoadingDialog
+import com.mobai.magisk.ui.flash.FlashUtils
+import com.mobai.magisk.ui.install.InstallBottomSheet
+import com.mobai.magisk.ui.install.InstallViewModel
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -819,8 +819,8 @@ private fun EnvFixComposableDialog(
 ) {
     val scope = rememberCoroutineScope()
     val needsFullFix = code == 2 ||
-        Info.env.versionCode != com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_CODE ||
-        Info.env.versionString != com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_NAME
+        Info.env.versionCode != com.mobai.magisk.core.BuildConfig.APP_VERSION_CODE ||
+        Info.env.versionString != com.mobai.magisk.core.BuildConfig.APP_VERSION_NAME
 
     if (showDialog.value) {
         AlertDialog(

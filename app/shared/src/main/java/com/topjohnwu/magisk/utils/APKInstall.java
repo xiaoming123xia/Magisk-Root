@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.utils;
+package com.mobai.magisk.utils;
 
 import static android.content.pm.PackageInstaller.EXTRA_SESSION_ID;
 import static android.content.pm.PackageInstaller.EXTRA_STATUS;

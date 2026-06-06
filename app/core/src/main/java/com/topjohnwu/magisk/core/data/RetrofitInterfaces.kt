@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core.data
+package com.mobai.magisk.core.data
 
-import com.topjohnwu.magisk.core.model.ModuleJson
-import com.topjohnwu.magisk.core.model.Release
-import com.topjohnwu.magisk.core.model.UpdateJson
+import com.mobai.magisk.core.model.ModuleJson
+import com.mobai.magisk.core.model.Release
+import com.mobai.magisk.core.model.UpdateJson
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.GET

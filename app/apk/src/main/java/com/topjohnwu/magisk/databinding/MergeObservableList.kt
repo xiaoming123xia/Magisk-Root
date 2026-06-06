@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.databinding
+package com.mobai.magisk.databinding
 
 import androidx.databinding.ListChangeRegistry
 import androidx.databinding.ObservableList

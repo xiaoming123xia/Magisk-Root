@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.terminal
+package com.mobai.magisk.terminal
 
 import android.util.Base64
 import timber.log.Timber

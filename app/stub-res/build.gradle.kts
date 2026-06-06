@@ -5,7 +5,7 @@ plugins {
 setupCommon()
 
 android {
-    namespace = "com.topjohnwu.magisk"
+    namespace = "com.mobai.magisk"
     enableKotlin = false
 
     buildTypes {

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.settings
+package com.mobai.magisk.ui.settings
 
 import android.os.Build
 import androidx.compose.foundation.layout.Column
@@ -33,18 +33,18 @@ import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.content.pm.ShortcutManagerCompat
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils
-import com.topjohnwu.magisk.ui.ThemeState
-import com.topjohnwu.magisk.ui.component.SettingsArrow
-import com.topjohnwu.magisk.ui.component.SettingsDropdown
-import com.topjohnwu.magisk.ui.component.SettingsSwitch
-import com.topjohnwu.magisk.ui.component.SmallTitle
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.Config
+import com.mobai.magisk.core.Const
+import com.mobai.magisk.core.Info
+import com.mobai.magisk.core.isRunningAsStub
+import com.mobai.magisk.core.utils.LocaleSetting
+import com.mobai.magisk.core.utils.MediaStoreUtils
+import com.mobai.magisk.ui.ThemeState
+import com.mobai.magisk.ui.component.SettingsArrow
+import com.mobai.magisk.ui.component.SettingsDropdown
+import com.mobai.magisk.ui.component.SettingsSwitch
+import com.mobai.magisk.ui.component.SmallTitle
+import com.mobai.magisk.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

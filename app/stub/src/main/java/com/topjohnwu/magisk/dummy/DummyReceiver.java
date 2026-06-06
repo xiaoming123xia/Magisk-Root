@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.dummy;
+package com.mobai.magisk.dummy;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

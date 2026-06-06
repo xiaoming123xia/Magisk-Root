@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.surequest
+package com.mobai.magisk.ui.surequest
 
 import android.view.MotionEvent
 import android.widget.Toast
@@ -37,9 +37,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.ui.superuser.SharedUidBadge
-import com.topjohnwu.magisk.core.R as CoreR
+import com.mobai.magisk.core.ktx.toast
+import com.mobai.magisk.ui.superuser.SharedUidBadge
+import com.mobai.magisk.core.R as CoreR
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
